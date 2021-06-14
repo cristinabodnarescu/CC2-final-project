@@ -1,6 +1,6 @@
 # Be Water - Camera As Presence Sensor
 This is a patch made in MAX MSP 8, that engages the user in an interactive way. 
-The WebCam is used a sensor to detect motion/presence. If the user moves, then the sound of the ocean is triggered, else the sound of wind is heard. 
+The WebCam is used as a sensor to detect motion/presence. If the user moves, then the sound of the ocean is triggered, else the sound of wind is heard. 
 The sound is generated with a reson~ object using noise~. The parameters (gain, frequency and resonance) are changing values for both wind and ocean, depending on which one is triggered.
 The patch uses Vizzie objects and MaxMsp objects.
 
